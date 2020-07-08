@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{{ content }}
+<ul class="posts">
+{% for post in site.posts %}
+	<li>
+		<a href="{{ post.url }}">
+		<span class="article_title">{{ post.title }}</span> [READ]
+		</a>
+		<br>
+		<span class="little_grey">{{ post.date | date: "written in %-d %B %Y"}}</span>
+		<br>
+		{% if post.excerpt %}
+    		{{ post.excerpt }}
+		{% endif %}
+		<br>
+	</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,23 @@
+title: IvanDSM
+email: noway@jose.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is IvanDSM's website! I write about things I do
+  or whatever thoughts I have here. Enjoy!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+excerpt_separator: <!--more-->
+
+author: IvanDSM
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Markdown stuff
+markdown: kramdown
+
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge

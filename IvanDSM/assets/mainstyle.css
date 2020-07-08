@@ -1,0 +1,78 @@
+@import "freesans.css";
+
+body 
+{
+  font-family: FreeSans;
+  font-weight:bold;
+  font-size: medium;
+  color: #F7F7FF;
+  background: #050609;
+  margin-top:0em;
+  margin-right:4em;
+  margin-left:4em;
+}
+
+.main_cont_window
+{
+  font-weight: normal;
+  font-size: medium;
+  color: #050609;
+  background: #F7F7FF;
+}
+
+#mainlogo
+{
+  position:relative;
+  top:2em;
+  left:0;
+  max-width: 100%;
+  height: auto;
+}
+
+#phrase
+{
+  text-align: right;
+  font-size: x-large;
+  position:relative;
+  top:-2em;
+  right:0;
+} 
+
+.article_title
+{
+  font-size: 1.125em;
+}
+
+.title_heading
+{
+  color: #FE9D0B;
+  font-size: 1.5em;
+}
+
+.little_grey
+{
+  color: #cccccc;
+  font-size: 0.625em;
+}
+
+a:link
+{
+  color: #FE9D0B;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #FEAD34;
+}
+
+a:active
+{
+  color: #F49301;
+}
+
+a:visited
+{
+  color: #df8601;
+  text-decoration: none;
+}

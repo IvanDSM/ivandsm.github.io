@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta name="description" content="This is IvanDSM's webpage. There's some cool stuff here. Come on in!">
+    <title>{{site.title}} - {{page.title}}</title>
+    <link rel="icon" href="{{ "/assets/favicon.png" | relative_url }}">
+    <link rel="stylesheet" type="text/css"href="{{ "/assets/mainstyle.css" | relative_url }}" >
+    <meta content="ivandsm,snesivan" name="keywords">
+    <meta content="This is IvanDSM's webpage. There's some cool stuff here. Come on in!" name="description">
+  </head>
+  <body>
+    <img alt="Logo" id="mainlogo" src="{{ "/assets/logo.png" | relative_url }}" height="123" width="471">
+    <div id="phrase">Welcome to my homepage.</div>
+    <div pbzloc="156">&nbsp;</div>
+    <div>&nbsp;</div>
+    <div class="main_cont_window">
+      <span style="font-size: 20px; ">
+        <span class="title_heading">{{page.title | upcase}}</span>
+      </span>
+      {{ content }}
+      &nbsp;</div>
+  </body>
+</html>
