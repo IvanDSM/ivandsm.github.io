@@ -28,6 +28,23 @@ body
   justify-content: space-between;
 }
 
+.footer
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 2em;
+}
+
+.license
+{
+  text-align: center;
+  position: relative;
+  width: 16em;
+  font-size: 75%;
+}
+
 #mainlogo
 {
   position:relative;
