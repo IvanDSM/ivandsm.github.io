@@ -8,8 +8,10 @@
     <meta content="This is IvanDSM's webpage. There's some cool stuff here. Come on in!" name="description">
   </head>
   <body>
-    <img alt="Logo" id="mainlogo" src="{{ "/assets/logo.png" | relative_url }}" height="123" width="471">
-    <div id="phrase">Welcome to my homepage.</div>
+    <div class="header">
+      <img alt="Logo" src="{{ "/assets/logo.png" | relative_url }}" >
+      <span class="phrase">Welcome to my homepage.</span>
+    </div>
     <div pbzloc="156">&nbsp;</div>
     <div>&nbsp;</div>
     <div class="main_cont_window">
@@ -17,6 +19,12 @@
         <span class="title_heading">{{page.title | upcase}}</span>
       </span>
       {{ content }}
-      &nbsp;</div>
+      &nbsp;
+    </div>
+    <div class="footer">
+      <div class="license">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{page.title}}</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">IvanDSM</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
   </body>
 </html>
