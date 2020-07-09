@@ -1,19 +1,19 @@
 @font-face 
 {
-	font-family: FreeSans;
+	font-family: remote_FreeSans;
 	src: url(FreeSans.woff);
 }
 
 @font-face 
 {
-	font-family: FreeSans;
+	font-family: remote_FreeSans;
 	src: url(FreeSansBold.woff);
 	font-weight: bold;
 }
 
 @font-face 
 {
-	font-family: FreeSans;
+	font-family: remote_FreeSans;
 	src: url(FreeSansBoldOblique.woff);
 	font-style: oblique;
 	font-weight: bold;
@@ -21,7 +21,7 @@
 
 @font-face 
 {
-	font-family: FreeSans;
+	font-family: remote_FreeSans;
 	src: url(FreeSansOblique.woff);
 	font-style: oblique;
 }

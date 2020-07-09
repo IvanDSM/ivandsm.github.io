@@ -2,7 +2,7 @@
 
 body 
 {
-  font-family: FreeSans;
+  font-family: FreeSans, remote_FreeSans;
   font-weight:bold;
   font-size: medium;
   color: #F7F7FF;
