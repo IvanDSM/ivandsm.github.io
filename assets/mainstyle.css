@@ -2,68 +2,53 @@
 
 body 
 {
-  font-family: FreeSans, remote_FreeSans;
-  font-weight:bold;
-  font-size: medium;
-  color: #F7F7FF;
   background: #050609;
-  margin-top:0em;
-  margin-right:4em;
-  margin-left:4em;
-}
-
-.main_cont_window
-{
-  font-weight: normal;
-  font-size: medium;
-  color: #050609;
-  background: #F7F7FF;
+  color: #F7F7FF;
+  font-family: FreeSans, remote_FreeSans;
+  font-size: 100%;
+  margin: 2em;
 }
 
 .header
 {
-  position: relative;
-  top: 2em;
   display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+  /* flex properties */
+  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.footer
+.logo
 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  top: 2em;
-}
-
-.license
-{
-  text-align: center;
-  position: relative;
-  width: 16em;
-  font-size: 75%;
-}
-
-#mainlogo
-{
-  position:relative;
-  top:2em;
-  max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: scale-down;
+  width: 100%;
 }
 
 .phrase
 {
-  text-align: right;
   font-size: x-large;
-  position: relative;
-  top: 2em;
+  font-style: italic;
+  text-align: right;
 } 
+
+.main_cont_window
+{
+  padding: 0.0125% 5%;
+}
 
 .article_title
 {
-  font-size: 1.125em;
+  font-size: 125%;
+}
+
+.article_date
+{
+  font-size: 75%;
+  margin-top: 0%;
 }
 
 .title_heading
@@ -72,10 +57,17 @@ body
   font-size: 1.5em;
 }
 
-.little_grey
+.footer
 {
-  color: #cccccc;
-  font-size: 0.625em;
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  position: relative;
+  text-align: center;
+  /* flex properties */
+  align-items: center;
+  justify-content: center;
 }
 
 a:link
