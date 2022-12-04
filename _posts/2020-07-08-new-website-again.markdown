@@ -2,7 +2,7 @@
 layout: post
 title:  "New Website! Again..."
 date:   2020-07-08 08:25:00 -0300
-categories: casual
+tag: casual
 ---
 
 Ok, I promise to myself this is the last time I change hosts for my website. I hope.
