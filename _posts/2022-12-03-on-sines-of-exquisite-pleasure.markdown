@@ -10,6 +10,8 @@ An odd situation regarding possible retroactive forgery has appeared on the cass
 <!--more-->
 
 # ATTENTION: This post is still under construction, and will probably be updated as more research is done and new info is found.
+## See the revision history at the end of the page for info about updates!
+## Also check out [the Discogs forum page](https://www.discogs.com/forum/thread/981667) where most discussion regarding this is being held.
 
 I'm into digging for underground (or sometimes not so underground, but not so mainstream music), whether it be through YouTube or other such platforms. 
 
@@ -77,13 +79,20 @@ Naturally, there's a Discogs page for the album. Funnily enough, the result Goog
 
 ![A montage of the four pictures available on the Discogs listing](/assets/2022-12-03-on-sines-of-exquisite-pleasure/discogs_pics.jpg)
 
-These are the images available on the Discogs listing as of the writing of this post. I haven't resized, cleaned or modified them, just tiled them in GIMP keeping their resolution. The only thing different is that the tape's images weren't square shaped, so I just put a white background to keep them centered.
+These are the images available on the Discogs listing as of the writing of this post. I haven't resized, cleaned or modified them, just tiled them in GIMP keeping the (somewhat low) resolution that Discogs served them to me in. The only thing different is that the tape's images weren't square shaped, so I just put a white background to keep them centered.
 
 The first weird thing is that the J-Card has no folding, damage, dust or scanning artifacts. It really just looks pristine, at least when it comes to the text and the illustration on the front. There are some imperfections, but they're of the kind that are easily done digitally and look kind of silly. Worth noting is the very sharp, very digital-looking writing in what appears to be Courier.
 
-As for the cassette images themselves, it's way less conclusive but to me they just look like someone overlaid Courier text on top of a picture of a cassette.
+As for the cassette images themselves, it's way less conclusive but to me they just look like someone overlaid Courier text on top of a picture of a cassette. Discogs user nickleb474 also noticed that both the inside and outside images seemed to have very similar imperfections. They have produced the following animation, which I've been given permission to reproduce:
 
-One thing that did call my attention though is that there was one comment also doubting the veracity of this release. Unfortunately that comment along with my similarly doubtful response to it have been lost since the release was removed due to a majority vote.
+<video autoplay='true' loop='true' muted='true' src='/assets/2022-12-03-on-sines-of-exquisite-pleasure/artifacts.webm'>
+An animation that fades back and forth between the inside and outside of the J-Card for Modular Systems, which arrows pointing to places where there common artifacts are visible.
+WebM available for download <a href='/assets/2022-12-03-on-sines-of-exquisite-pleasure/artifacts.webm'>here</a>.
+</video>
+
+The bright artifact on the left side as well as the dark artifact on the lower right are not natural of say, stains on a J-Card, since if that was the case they'd be horizontally flipped on the opposite side. And although the line appears to have been made stronger on the outside of the J-Card, the lines have precisely the same imperfections which look like an attempt to emulate a line drawn with pen.
+
+Something that got my attention on my first look into this is that there was one comment also doubting the veracity of this release. Unfortunately that comment along with my similarly doubtful response to it have been lost since the release was removed due to a majority vote.
 
 ![A screenshot of the Discogs history page showing the creation of the page by users st.magellan and Cyclops-X and subsequent votes for deletion.](/assets/2022-12-03-on-sines-of-exquisite-pleasure/discogs_history.png)
 
@@ -119,6 +128,12 @@ Now, it's very odd that the only two available pictures of the artist are a terr
 
 Note how on the right picture, the "outer" parts of the face are lighter and blurrier than the comparatively sharper "inner" part of the face. You can see a "border" of sorts which I believe was the boundary of the feathered overlay of the new face.
 
+Discogs user dubfunkoustic later found out that Cyclops-X had uploaded a color version of the second picture of Douglas Em, but subsequently disabled it.
+
+![Color version of the second picture of Douglas Em.](/assets/2022-12-03-on-sines-of-exquisite-pleasure/douglas_em_2_color.jpg)
+
+dubfunkoustic as well as other users find this version of the image to appear photoshopped. I believe it's a legitimate picture, but as I've stated in the Discogs thread, it may be that due to the fact that Discogs is serving me low quality versions of all images.
+
 Unfortunately, apart from this inconclusive info, there wasn't much else to learn. So I was left with one question.
 
 ## Where to go from here?
@@ -138,3 +153,8 @@ You might ask yourself: Where does Sines of Exquisite Pleasure fit into this? Th
 So that leads us back to square zero. We know FAM are not behind SEP (props to FAM though for such a cool project). So once again, who is?
 
 # To be continued?
+
+# Revision history
+- Revision 1:
+  - Added animation by Discogs user nickleb474 showcasing suspicious similarities on the J-Card scans.
+  - Added color version of Douglas Em's second picture found by Discogs user dubfunkoustic.
