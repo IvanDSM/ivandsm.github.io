@@ -92,7 +92,7 @@ a:visited
   text-decoration: none;
 }
 
-img
+img, video
 {
   display: block;
   margin: auto;
